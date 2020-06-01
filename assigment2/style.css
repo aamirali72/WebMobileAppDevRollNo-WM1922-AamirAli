@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    color: white;
+}
+
+img {
+    alt: "Saylani Welfare";
+    padding-left: 630px;
+    height: 90px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#blue102 {
+    color: blue;
+}
+
+#container {
+    width: 850px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(148, 99, 184);
+}
+
+#table_qualification input {
+    height: 25px;
+    margin: 0px;
+}
+
+.a102 {
+    text-align: center;
+}
+
+.subres {
+    text-align: center;
+}
+
+#subpad {
+    padding-left: 10px;
+}
+
+#subpad2 {
+    padding-left: 400px;
+}
+
+.black101 option {
+    color: black;
+}
+
+.black102 {
+    color: black;
+}
+
+
+/*Registration*/
+
+#form_table {
+    width: 900px;
+    line-height: 31px;
+}
+
+#form_table #varchar {
+    height: 25px;
+    width: 230px;
+    background: silver;
+    transition: black .5s, background .5s;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+}
+
+input,
+textarea {
+    outline: 0px;
+}
+
+#form_table #varchar:focus {
+    width: 230px;
+    background: white;
+}
+
+#form_table #varchar:valid {
+    width: 230px;
+    background: lightgreen;
+}
+
+#form_table #varchar:invalid {
+    width: 200px;
+    background: white;
+}
+
+#form_table input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+#form_table input:in-range {
+    border: 1px solid green;
+}
+
+#form_table input:out-of-range {
+    border: 2px solid red;
+}
